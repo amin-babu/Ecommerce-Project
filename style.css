@@ -231,6 +231,7 @@ body{
   justify-content: space-between;
   padding-top: 20px;
   flex-wrap: wrap;
+  gap: 20px;
 }
 
 #product1 .pro{
@@ -244,6 +245,7 @@ body{
   margin: 15px 0;
   transition: 0.2s ease;
   position: relative;
+  flex-grow: 1;
 }
 
 #product1 .pro:hover{
